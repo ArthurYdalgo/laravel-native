@@ -46,20 +46,27 @@
 
 <body class="font-sans antialiased">
     <native:top-bar title="Laravel">
-        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
-
         <native:top-bar-group id="more" icon="more" label="More">
             <native:top-bar-action id="help" icon="help" label="Login" url="/login" />
             <native:top-bar-action id="about" icon="info" label="Register" url="/register" />
 
         </native:top-bar-group>
+        
+        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
+
+        
     </native:top-bar>
 
 
     <native:side-nav gestures-enabled="true">
         <native:side-nav-header title="My App" subtitle="user@example.com" icon="person" />
 
-        <native:side-nav-item id="home" label="Home" icon="home" url="/home" :active="true" />
+        <native:side-nav-item id="home" label="Home" icon="home" url="/" :active="true" />
 
         <native:side-nav-group heading="Account" :expanded="false">
             <native:side-nav-item id="profile" label="Profile" icon="person" url="/login" />

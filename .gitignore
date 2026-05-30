@@ -30,3 +30,4 @@ yarn-error.log
 native
 nativephp.lock
 public/ios-hot
+public/android-hot
