@@ -14,7 +14,19 @@ composer install
 npm install
 php artisan key:generate
 php artisan native:install
+
 ```
 
+To build for ios
+
+```bash
+npm run build -- --mode=ios && php artisan native:run ios
+```
+
+for android
+
+```bash
+npm run build -- --mode=android && php artisan native:run android
+```
 
 
