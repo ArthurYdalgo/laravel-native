@@ -46,20 +46,23 @@
 
 <body class="font-sans antialiased">
     <native:top-bar title="Laravel">
-        <native:top-bar-group id="more" icon="more" label="More">
-            <native:top-bar-action id="help" icon="help" label="Login" url="/login" />
-            <native:top-bar-action id="about" icon="info" label="Register" url="/register" />
-
+        <native:top-bar-group id="more_1" icon="more" label="More">
+            <native:top-bar-action id="help_1" icon="help" label="Login 1" url="/login" />
+            <native:top-bar-action id="about_1" icon="info" label="Register 1" url="/register" />
         </native:top-bar-group>
-        
-        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
 
-        
+        {{-- Just for example purposes --}}
+        <native:top-bar-action id="search_1" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search_2" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search_3" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search_4" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search_5" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search_6" icon="search" label="Search" url="https://google.com.br" />
+
+        <native:top-bar-group id="more_2" icon="more" label="More">
+            <native:top-bar-action id="help_2" icon="help" label="Login 2" url="/login" />
+            <native:top-bar-action id="about_2" icon="info" label="Register 2" url="/register" />
+        </native:top-bar-group>
     </native:top-bar>
 
 
