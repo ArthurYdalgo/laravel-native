@@ -88,6 +88,11 @@
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+        ],
+        "native-reset": [
+            "rm -rf vendor",
+            "@composer update",
+            "@php artisan native:install -F -n"
         ]
     },
     "extra": {
