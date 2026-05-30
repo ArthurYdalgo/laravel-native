@@ -46,9 +46,9 @@
 
 <body class="font-sans antialiased">
     <native:top-bar title="Laravel">
-        <native:top-bar-action id="search" icon="more" label="Search" url="/fuck" />
+        <native:top-bar-action id="search" icon="search" label="Search" url="https://google.com.br" />
 
-        <native:top-bar-group id="more" icon="info" label="More">
+        <native:top-bar-group id="more" icon="more" label="More">
             <native:top-bar-action id="help" icon="help" label="Login" url="/login" />
             <native:top-bar-action id="about" icon="info" label="Register" url="/register" />
 

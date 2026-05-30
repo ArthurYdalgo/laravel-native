@@ -29,3 +29,4 @@ yarn-error.log
 /.zed
 native
 nativephp.lock
+public/ios-hot

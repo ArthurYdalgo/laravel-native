@@ -2727,12 +2727,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ArthurYdalgo/mobile-air.git",
-                "reference": "b686563253c24c161e382d227f210c97f5ee11d9"
+                "reference": "5f058939239b619e03f535c20f0cbfd12ea590ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ArthurYdalgo/mobile-air/zipball/b686563253c24c161e382d227f210c97f5ee11d9",
-                "reference": "b686563253c24c161e382d227f210c97f5ee11d9",
+                "url": "https://api.github.com/repos/ArthurYdalgo/mobile-air/zipball/5f058939239b619e03f535c20f0cbfd12ea590ae",
+                "reference": "5f058939239b619e03f535c20f0cbfd12ea590ae",
                 "shasum": ""
             },
             "require": {
@@ -2827,7 +2827,7 @@
             "support": {
                 "source": "https://github.com/ArthurYdalgo/mobile-air/tree/feature/top-bar-children"
             },
-            "time": "2026-05-30T04:43:53+00:00"
+            "time": "2026-05-30T13:39:46+00:00"
         },
         {
             "name": "nesbot/carbon",
