@@ -60,7 +60,7 @@
             </native:top-bar-section>
 
             <native:top-bar-section title="Danger">
-                <native:top-bar-action id="delete" icon="delete" label="Delete everything" url="/register"
+                <native:top-bar-action id="delete" icon="delete" label="Delete everything" url="/"
                     role="destructive" {{-- iOS only --}} />
             </native:top-bar-section>
 
