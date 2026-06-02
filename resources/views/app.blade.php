@@ -56,7 +56,8 @@
             </native:top-bar-section>
 
             <native:top-bar-section title=""> {{-- title can be empty --}}
-                <native:top-bar-action id="docs" icon="bookmark" label="Docs" url="https://laravel.com/docs" subtitle="Laravel Docs" />
+                <native:top-bar-action id="docs" icon="bookmark" label="Docs" url="https://laravel.com/docs"
+                    subtitle="Laravel Docs" />
             </native:top-bar-section>
 
             <native:top-bar-section title="Danger">
@@ -69,11 +70,14 @@
         <native:top-bar-action id="search_1" icon="search" label="Search" url="https://google.com.br" />
         <native:top-bar-action id="search_2" icon="search" label="Search" url="https://google.com.br" />
         <native:top-bar-action id="search_3" icon="search" label="Search" url="https://google.com.br" />
+        <native:top-bar-action id="search_4" icon="search" label="Search" url="https://google.com.br" />
 
         <native:top-bar-group id="group_2" icon="more" label="More">
-            <native:top-bar-action id="laravel" icon="book-open" label="Laravel" url="https://laravel.com" subtitle="Laravel Homepage" />
+            <native:top-bar-action id="laravel" icon="book-open" label="Laravel" url="https://laravel.com"
+                subtitle="Laravel Homepage" />
             <native:top-bar-action id="google" icon="help" label="Help" url="https://google.com" />
         </native:top-bar-group>
+
     </native:top-bar>
 
 
