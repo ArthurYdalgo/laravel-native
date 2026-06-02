@@ -46,22 +46,33 @@
 
 <body class="font-sans antialiased">
     <native:top-bar title="Laravel">
-        <native:top-bar-group id="more_1" icon="more" label="More">
-            <native:top-bar-action id="help_1" icon="help" label="Login 1" url="/login" />
-            <native:top-bar-action id="about_1" icon="info" label="Register 1" url="/register" />
+
+        <native:top-bar-group id="group_1" icon="lock" label="More">
+            <native:top-bar-section title="Authentication">
+                <native:top-bar-action id="help_1" role="cancel" icon="login" label="Login" url="/login"
+                    subtitle="Get back here!" />
+                <native:top-bar-action id="about_1" icon="login" label="Register" url="/register"
+                    subtitle="Join us!" />
+            </native:top-bar-section>
+
+            <native:top-bar-section title=""> {{-- title can be empty --}}
+                <native:top-bar-action id="docs" icon="bookmark" label="Docs" url="https://laravel.com/docs" subtitle="Laravel Docs" />
+            </native:top-bar-section>
+
+            <native:top-bar-section title="Danger">
+                <native:top-bar-action id="delete" icon="delete" label="Delete everything" url="/register"
+                    role="destructive" {{-- iOS only --}} />
+            </native:top-bar-section>
+
         </native:top-bar-group>
 
-        {{-- Just for example purposes --}}
         <native:top-bar-action id="search_1" icon="search" label="Search" url="https://google.com.br" />
         <native:top-bar-action id="search_2" icon="search" label="Search" url="https://google.com.br" />
         <native:top-bar-action id="search_3" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search_4" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search_5" icon="search" label="Search" url="https://google.com.br" />
-        <native:top-bar-action id="search_6" icon="search" label="Search" url="https://google.com.br" />
 
-        <native:top-bar-group id="more_2" icon="more" label="More">
-            <native:top-bar-action id="help_2" icon="help" label="Login 2" url="/login" />
-            <native:top-bar-action id="about_2" icon="info" label="Register 2" url="/register" />
+        <native:top-bar-group id="group_2" icon="more" label="More">
+            <native:top-bar-action id="laravel" icon="book-open" label="Laravel" url="https://laravel.com" subtitle="Laravel Homepage" />
+            <native:top-bar-action id="google" icon="help" label="Help" url="https://google.com" />
         </native:top-bar-group>
     </native:top-bar>
 
